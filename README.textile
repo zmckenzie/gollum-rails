@@ -14,6 +14,14 @@ A sample app to try out a Wiki engine. The following tools are used:
 
 h2. Getting started
 
+* Install dependencies
+
+```sudo apt-get install libxml2-dev libxslt1-dev libmysqld-dev```
+
+* Use proper ruby version
+
+```rvm use 1.9.2``` - (Install if you don't have it)
+
 * Create a Git repository for the wiki:
 
 ```git init --bare db/wiki.git```
